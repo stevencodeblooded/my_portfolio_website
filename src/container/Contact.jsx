@@ -1,9 +1,9 @@
 import React from "react";
 
-import Navbar from "../components/Navbar";
-import Form from "../components/Contact/Form";
-import Footer from "../components/Footer";
-import Headings from "../components/Contact/Headings";
+import Navbar from '../components/Navbar/Navbar'
+import Form from "../components/Contact/Form/Form";
+import Footer from "../container/Footer";
+import Heading from "../components/Contact/Heading/Heading";
 
 const Contact = () => {
 
@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="navbar-margin">
         <Navbar />
       </div>
-      <Headings />
+      <Heading />
       <Form />
 
       <Footer />

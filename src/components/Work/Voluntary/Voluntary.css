@@ -1,0 +1,28 @@
+.volunteer {
+  margin-bottom: 40px;
+} 
+
+.volunteer h2 {
+  font-size: 2.4rem;
+  color: #1976D2;
+  margin-bottom: 0px;
+}
+
+.volunteer p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+
+.volunteer {
+  width: 90%;
+  padding-left: 20px;
+}
+  .volunteer h2 {
+    font-size: 1.3rem;
+  }
+  
+  .volunteer p {
+    font-size: 14px;
+  }
+}

@@ -1,13 +1,13 @@
 import React from "react";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Project from "../components/Work/Project";
-import Experience from "../components/Work/Experience";
-import Internship from "../components/Work/Internship";
-import Recognition from "../components/Work/Recognition";
-import Testimonials from "../components/Work/Testimonials";
-import Voluntary from "../components/Work/Voluntary";
+import Navbar from '../components/Navbar/Navbar'
+import Footer from "../container/Footer";
+import Project from "../components/Work/Project/Project";
+import Experience from "../components/Work/Experience/Experience";
+import Internship from "../components/Work/Internship/Internship";
+import Recognition from "../components/Work/Recognition/Recognition";
+import Testimonials from "../components/Work/Testimonials/Testimonials";
+import Voluntary from "../components/Work/Voluntary/Voluntary";
 
 const Work = () => {
   return (

@@ -1,0 +1,67 @@
+/*------------------------Text Content-------------------------*/
+
+.text-content {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.text-content p {
+  text-align: center;
+  font-size: 20px;
+}
+.know-me-btn {
+  max-width: 300px;
+  margin-inline: auto;
+  margin-top: 50px;
+}
+
+.aboutMe-link {
+  text-decoration: none;
+  border: 1px solid #1976d2;
+  padding: 10px 5px;
+  color: #1976d2;
+  transition: 0.3s all ease-in-out;
+  border-end-end-radius: 40px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #bbdefb;
+}
+
+.aboutMe-link:hover {
+  color: #64b5f6;
+  border: 1px solid #64b5f6;
+}
+
+@media only screen and (max-width: 400px) {
+
+  .text-content {
+    max-width: 100%;
+    margin-inline: auto;
+    margin-top: 0;
+  }
+  
+  .text-content p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+
+  .know-me-btn {
+    max-width: 100%;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutMe-link {
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+
+  
+}

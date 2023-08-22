@@ -1,0 +1,41 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #1976d2;
+  margin-top: 40px;
+  margin-inline: 30%;
+  border-radius: 30px;
+}
+
+.logo {
+  margin-right: 7px;
+}
+
+.title-logo {
+  color: #1976d2;
+  font-size: 24px;
+}
+
+.title-span {
+  /* text-decoration: underline; */
+  color: #1976d2;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.title-span:hover {
+  color: #64b5f6;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.flex-intro {
+  display: flex;
+}
+
+@media only screen and (max-width: 400px) {
+  .title {
+    display: none;
+  }
+}

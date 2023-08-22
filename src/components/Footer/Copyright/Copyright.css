@@ -1,0 +1,28 @@
+.copyright {
+    border: 1px solid #BBDEFB;
+    background-color: rgba(0, 123, 255, 0.3);
+    padding-block: 25px;
+}
+
+.copyright p {
+    text-align: center;
+    font-weight: 300;
+}
+
+.name {
+    text-decoration: underline;
+    color: #1976D2;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .copyright {
+        padding-block: 10px;
+    }
+    
+    .copyright p {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+}

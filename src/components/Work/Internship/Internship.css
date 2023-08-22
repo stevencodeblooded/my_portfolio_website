@@ -1,0 +1,39 @@
+.internship {
+  margin-bottom: 40px;
+} 
+
+.internship h2 {
+  font-size: 2.4rem;
+  color: #1976D2;
+  margin-bottom: 0px;
+}
+
+.internship > li {
+  font-size: 20px;
+}
+
+.internship li::marker {
+  color: #1976D2;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 400px) {
+
+  .internship {
+    width: 90%;
+    padding-left: 20px;
+  }
+
+.internship h2 {
+  font-size: 1.3rem;
+}
+
+.internship >  ul > li {
+  font-size: 14px;
+}
+
+.internship > ul > li::marker {
+  font-size: 18px;
+}
+
+}

@@ -1,10 +1,11 @@
 import React from 'react'
 
-import Navbar from '../components/Navbar'
-import Title from '../components/Home/Title'
-import Introduction from '../components/Home/Introduction'
-import TextContent from '../components/Home/TextContent'
-import Footer from '../components/Footer'
+import Navbar from '../components/Navbar/Navbar'
+import Title from '../components/Home/Title/Title';
+import TextContent from '../components/Home/TextContent/TextContent';
+import Footer from "../container/Footer";
+import SelfIntroduction from '../components/Home/SelfIntroduction/SelfIntroduction';
+import Goal from '../components/Home/Goal/Goal';
 
 const Home = () => {
   return (
@@ -13,8 +14,9 @@ const Home = () => {
           <Navbar />
         </div>
         <Title />
-        <Introduction />
+        <SelfIntroduction />
         <TextContent />
+        <Goal />
         <Footer />
     </div>
   )

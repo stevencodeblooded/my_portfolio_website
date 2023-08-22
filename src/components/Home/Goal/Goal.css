@@ -1,0 +1,60 @@
+/*-----------------Goal----------------------*/
+
+.goal {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+
+.goal > h1 {
+  font-size: 3rem;
+}
+.steve-profile {
+  height: 25rem;
+  padding-bottom: 70px;
+  border-radius: 10rem;
+}
+
+.color-1 {
+  color: #1976d2;
+}
+
+.color-2 {
+  color: #64b5f6;
+}
+
+.color-3 {
+  color: rgba(0, 123, 255, 0.9);
+}
+
+@media only screen and (max-width: 400px) {
+  .goal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .goal > h1 {
+    font-size: 2rem;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+
+  .steve-profile {
+    height: 20rem;
+    border-radius: 10rem;
+    margin-bottom: 0;
+  }
+
+  .color-2 {
+    color: #1976d2;
+  }
+  
+  .color-3 {
+    color: #1976d2;
+  }
+  
+}

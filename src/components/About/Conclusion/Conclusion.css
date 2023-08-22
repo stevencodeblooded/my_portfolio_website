@@ -1,0 +1,32 @@
+.conclusion > h2 {
+  font-size: 2.4rem;
+  color: #1976d2;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.conclusion > p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+
+  .conclusion {
+    width: 100%;
+  }
+
+  .conclusion > h2 {
+    font-size: 1.3rem;
+  }
+  
+  .conclusion > p {
+    line-height: 1.3;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+}

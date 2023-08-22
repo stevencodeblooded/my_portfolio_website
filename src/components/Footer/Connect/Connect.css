@@ -1,0 +1,83 @@
+.connect {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding-inline: 30px;
+  padding-bottom: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #bbdefb;
+}
+
+.connect > section > h2 {
+  color: #1976d2;
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+.connect > section > p {
+  font-size: 20px;
+}
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  margin-right: 25px;
+}
+
+.social-icons .icon {
+  font-size: 22px;
+  color: #64b5f6;
+  transition: 0.3s all ease;
+}
+
+.social-icons .icon:hover {
+  color: #1976d2;
+  transform: scale(1.2);
+}
+
+.contact-link {
+  border: 1px solid #1976d2;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: #1976d2;
+  transition: 0.3s all ease-in-out;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.contact-link:hover {
+  color: #64b5f6;
+  border: 1px solid #64b5f6;
+}
+
+@media only screen and (max-width: 400px) {
+
+  .connect {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 20px;
+    padding-bottom: 20px;
+    padding-top: 0;
+  }
+
+  .connect > section > h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+  }
+
+  .connect > section > p {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  
+.social-icons a {
+    margin-right: 15px;
+  }
+  
+  .contact-link {
+    font-size: 15px;
+  }
+
+}

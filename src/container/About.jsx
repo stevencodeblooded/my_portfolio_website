@@ -1,12 +1,12 @@
 import React from "react";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Introduction from "../components/About/Introduction";
-import Passion from "../components/About/Passion";
-import Skill from "../components/About/Skill";
-import Education from "../components/About/Education";
-import Conclusion from "../components/About/Conclusion";
+import Navbar from '../components/Navbar/Navbar'
+import Footer from "../container/Footer";
+import Introduction from "../components/About/Introduction/Introduction";
+import Passion from "../components/About/Passion/Passion";
+import Skill from "../components/About/Skills/Skills";
+import Education from "../components/About/Education/Education";
+import Conclusion from "../components/About/Conclusion/Conclusion";
 
 const About = () => {
   return (
