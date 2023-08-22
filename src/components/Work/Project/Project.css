@@ -12,6 +12,10 @@
   font-size: 20px;
 }
 
+.work-links {
+  margin-top: 30px;
+}
+
 .work-links a {
   border: none;
   background-color: #bbdefb;
@@ -27,6 +31,10 @@
 .work-links a:hover {
   color: #64b5f6;
   border: 1px solid #64b5f6;
+}
+
+.github-link {
+  margin-right: 30px;
 }
 
 .work li::marker {

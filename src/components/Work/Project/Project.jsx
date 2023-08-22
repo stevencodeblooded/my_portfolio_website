@@ -42,10 +42,20 @@ const Project = () => {
             href="https://github.com/stevencodeblooded/rentmyspaceproject"
             target="_blank"
             rel="noopener noreferrer"
+            className="github-link"
           >
             GitHub Repository
           </a>
+
+          <a
+            href='https://rentmyspacewebsite.000webhostapp.com/'
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            View Live 
+          </a>
         </div>
+        
       </div>
     </div>
   );
