@@ -1,6 +1,6 @@
 import React from "react";
 
-import Navbar from '../components/Navbar/Navbar'
+import Navbar from "../components/Navbar/Navbar";
 import Footer from "../container/Footer";
 import Project from "../components/Work/Project/Project";
 import Experience from "../components/Work/Experience/Experience";
@@ -16,18 +16,20 @@ const Work = () => {
         <Navbar />
       </div>
       <div className="work">
-        <h1>Professional Endeavors</h1>
-        <Project />
-        <hr className="line" />
-        <Experience />
-        <hr className="line" />
-        <Testimonials />
-        <hr className="line" />
-        <Internship />
-        <hr className="line" />
-        <Recognition />
-        <hr className="line" />
-        <Voluntary />
+        <div className="top-margin">
+          <h1>Professional Endeavors</h1>
+          <Project />
+          <hr className="line" />
+          <Experience />
+          <hr className="line" />
+          <Testimonials />
+          <hr className="line" />
+          <Internship />
+          <hr className="line" />
+          <Recognition />
+          <hr className="line" />
+          <Voluntary />
+        </div>
       </div>
       <Footer />
     </div>

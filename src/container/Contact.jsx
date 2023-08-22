@@ -12,8 +12,10 @@ const Contact = () => {
       <div className="navbar-margin">
         <Navbar />
       </div>
-      <Heading />
-      <Form />
+      <div className="top-margin">
+        <Heading />
+        <Form />
+      </div>
 
       <Footer />
 

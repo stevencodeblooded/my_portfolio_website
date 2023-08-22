@@ -15,7 +15,7 @@ const About = () => {
         <Navbar />
       </div>
       <div className="about">
-        <div className="highlight-hover">
+        <div className="top-margin">
           <Introduction />
           <hr className="line" />
           <Passion />

@@ -13,11 +13,13 @@ const Home = () => {
         <div className='navbar-margin'>
           <Navbar />
         </div>
-        <Title />
-        <SelfIntroduction />
-        <TextContent />
-        <Goal />
-        <Footer />
+        <div className='top-margin'>
+          <Title />
+          <SelfIntroduction />
+          <TextContent />
+          <Goal />
+          <Footer />
+        </div>
     </div>
   )
 }
