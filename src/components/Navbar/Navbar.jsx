@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Resume from "../../assets/Resume.pdf";
 import LogoNav from '../../assets/logo-nav.png'
 
@@ -30,24 +30,24 @@ const Navbar = () => {
 
       <ul className={showLinks ? 'show-links-nav' : 'list-nav'}>
         <li>
-          <Link to="/" className="link">
+          <NavLink to="/" className={({isActive}) => isActive ? 'active-link' : 'link'}>
             Home
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/About" className="link">
+          <NavLink to="/About" className={({isActive}) => isActive ? 'active-link' : 'link'} >
             About
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Work" className="link">
+          <NavLink to="/Work" className={({isActive}) => isActive ? 'active-link' : 'link' }>
             Work
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Contact" className="link">
+          <NavLink to="/Contact" className={({isActive}) => isActive ? 'active-link' : 'link'}>
             Contact
-          </Link>
+          </NavLink>
         </li>
         <li>
           <a

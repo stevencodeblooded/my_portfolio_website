@@ -52,6 +52,20 @@
 
 .link:hover {
   color: #64b5f6;
+  text-decoration: underline;
+}
+
+.active-link {
+  text-decoration: none;
+  background-color: #1976d2;
+  color: #f0f0f0;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: .3s all ease-in-out;
+}
+
+.active-link:hover {
+  color: #64b5f6;
 }
 
 @media only screen and (max-width: 760px) {
