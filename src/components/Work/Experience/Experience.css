@@ -38,6 +38,16 @@
   font-size: 20px;
 }
 
+@media only screen and (max-width: 760px) {
+  .experience {
+    padding-left: 15px;
+  }
+
+  .experience > h2 {
+    font-size: 2rem;
+  }
+}
+
 @media only screen and (max-width: 400px) {
 
   .experience {

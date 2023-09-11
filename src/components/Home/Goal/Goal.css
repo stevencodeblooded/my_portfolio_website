@@ -28,6 +28,23 @@
   color: rgba(0, 123, 255, 0.9);
 }
 
+@media only screen and (max-width: 760px) {
+  .goal {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .goal > h1 {
+    text-align: center;
+    font-size: 33px;
+  }
+
+  .steve-profile {
+    height: 20rem;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .goal {
     width: 100%;

@@ -1,7 +1,5 @@
 import React from "react";
 
-import Navbar from '../components/Navbar/Navbar'
-import Footer from "../container/Footer";
 import Introduction from "../components/About/Introduction/Introduction";
 import Passion from "../components/About/Passion/Passion";
 import Skill from "../components/About/Skills/Skills";
@@ -12,8 +10,8 @@ const About = () => {
   return (
     <div>
       <div className="navbar-margin">
-        <Navbar />
       </div>
+      
       <div className="about">
         <div className="top-margin">
           <Introduction />
@@ -27,7 +25,6 @@ const About = () => {
           <Conclusion />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

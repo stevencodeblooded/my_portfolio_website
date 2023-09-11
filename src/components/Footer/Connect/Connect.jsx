@@ -14,11 +14,41 @@ const Connect = () => {
         <p>I am looking to connect with those who share an interest in a sustainable environment. Lorem, ipsum dolor.</p>
 
         <div className='social-icons'>
-            <a href='https://facebook.com'><FontAwesomeIcon icon={faFacebook} className='icon' /></a>
-            <a href='https://instagram.com'><FontAwesomeIcon icon={faInstagram} className='icon' /></a>
-            <a href='https://twitter.com'><FontAwesomeIcon icon={faTwitter} className='icon' /></a>
-            <a href='https://linkedin.com'><FontAwesomeIcon icon={faLinkedin} className='icon' /></a>
-            <a href='https://github.com/stevencodeblooded/rentmyspaceproject'><FontAwesomeIcon icon={faGithub} className='icon' /></a>
+            <a
+              target="_blank" 
+              rel="noopener noreferrer"  
+              href='https://facebook.com'>
+              <FontAwesomeIcon icon={faFacebook} className='icon' />
+            </a>
+
+            <a
+              target="_blank" 
+              rel="noopener noreferrer"  
+              href='https://instagram.com'>
+              <FontAwesomeIcon icon={faInstagram} className='icon' />
+            </a>
+
+            <a
+              target="_blank" 
+              rel="noopener noreferrer"  
+              href='https://twitter.com'>
+              <FontAwesomeIcon icon={faTwitter} className='icon' />
+            </a>
+
+            <a
+              target="_blank" 
+              rel="noopener noreferrer"  
+              href='https://www.linkedin.com/in/steven-ochieng-aa11b721a/'>
+              <FontAwesomeIcon icon={faLinkedin} className='icon' />
+            </a>
+
+            <a
+              target="_blank" 
+              rel="noopener noreferrer"  
+              href='https://github.com/stevencodeblooded/rentmyspaceproject'>
+              <FontAwesomeIcon icon={faGithub} className='icon' />
+            </a>
+
         </div>
 
       </section>

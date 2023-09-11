@@ -60,6 +60,12 @@ textarea:focus {
   color: #64b5f6;
 }
 
+@media only screen and (max-width: 760px) {
+  .contact-form {
+    padding-inline: 20px;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .contact-form {
     max-width: 80%;

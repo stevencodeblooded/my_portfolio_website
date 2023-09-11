@@ -12,6 +12,17 @@
   font-size: 20px;
 }
 
+@media only screen and (max-width: 760px) {
+  .volunteer {
+    padding-left: 15px;
+  }
+
+  .volunteer > h2 {
+    font-size: 2rem;
+  }
+}
+
+
 @media only screen and (max-width: 400px) {
 
 .volunteer {

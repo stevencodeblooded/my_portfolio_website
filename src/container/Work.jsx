@@ -1,7 +1,5 @@
 import React from "react";
 
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../container/Footer";
 import Project from "../components/Work/Project/Project";
 import Experience from "../components/Work/Experience/Experience";
 import Internship from "../components/Work/Internship/Internship";
@@ -13,25 +11,25 @@ const Work = () => {
   return (
     <div>
       <div className="navbar-margin">
-        <Navbar />
       </div>
+
       <div className="work">
         <div className="top-margin">
           <h1>Professional Endeavors</h1>
           <Project />
           <hr className="line" />
+          <Internship />
+          <hr className="line" />
           <Experience />
           <hr className="line" />
           <Testimonials />
-          <hr className="line" />
-          <Internship />
           <hr className="line" />
           <Recognition />
           <hr className="line" />
           <Voluntary />
         </div>
       </div>
-      <Footer />
+
     </div>
   );
 };

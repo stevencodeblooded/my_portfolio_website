@@ -3,7 +3,7 @@ import React from "react";
 import './Project.css'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3, faJs, faPhp } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faCss3, faJs, faPhp, faNode, faReact } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 const Project = () => {
@@ -12,7 +12,7 @@ const Project = () => {
       <h2>Projects</h2>
       <div className="project-1">
         <p>
-          Introducing "Rent My Space" - a sophisticated web application that
+          <span>A).</span> Introducing "Rent My Space" - a sophisticated web application that
           empowers hosts to seamlessly list their apartments for travelers or
           guests to book. This feature-rich platform also incorporates Stripe
           payment integration for secure and hassle-free transactions.
@@ -37,13 +37,14 @@ const Project = () => {
           </span>
         </div>
 
+
         <div className="work-links">
           <a
             href="https://github.com/stevencodeblooded/rentmyspaceproject"
             target="_blank"
             rel="noopener noreferrer"
             className="github-link"
-          >
+            >
             GitHub Repository
           </a>
 
@@ -51,9 +52,51 @@ const Project = () => {
             href='https://rentmyspacewebsite.000webhostapp.com/'
             target="blank"
             rel="noopener noreferrer"
-          >
+            >
             View Live 
           </a>
+
+        </div>
+
+        <p><span>B).</span> Developing a comprehensive HR management application, 'OrganizeHR,' optimizing HR processes and user experience</p>
+
+        <p>Technologies used: </p>
+        <div className="technologies">
+          <span>
+            <FontAwesomeIcon icon={faReact} className="icon" /> React JS
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faHtml5} className="icon" /> HTML
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faCss3} className="icon" /> CSS
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faDatabase} className="icon" /> Mongo DB
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faNode} className="icon" /> Node JS
+          </span>
+        </div>
+
+        <div className="work-links">
+          <a
+            href="https://github.com/stevencodeblooded/organizehr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="github-link"
+            >
+            GitHub Repository
+          </a>
+
+          <a
+            href='https://organizehr.netlify.app/'
+            target="blank"
+            rel="noopener noreferrer"
+            >
+            View Live 
+          </a>
+
         </div>
         
       </div>

@@ -12,6 +12,12 @@
   font-size: 20px;
 }
 
+.project p > span {
+  color: #1976d2;
+  font-size: 25px;
+  font-weight: 500;
+}
+
 .work-links {
   margin-top: 30px;
 }
@@ -64,6 +70,20 @@
   font-size: 25px;
 }
 
+@media only screen and (max-width: 760px) {
+  .project {
+    padding-inline: 15px;
+  }
+
+  .project h2 {
+    font-size: 2rem;
+  }
+
+  .project-1 > p > span {
+    font-size: 22px;
+  }
+}
+
 @media only screen and (max-width: 400px) {
 
   .project {
@@ -78,23 +98,22 @@
   .project p {
     font-size: 14px;
   } 
-
   
-.technologies {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 10px;
-  margin-bottom: 15px;
-}
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
 
-.technologies span {
-  font-size: 14px;
-  font-weight: 600;
-}
+  .technologies span {
+    font-size: 14px;
+    font-weight: 600;
+  }
 
-.technologies span .icon {
-  margin-right: 5px;
-}
+  .technologies span .icon {
+    margin-right: 5px;
+  }
 
 }

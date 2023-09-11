@@ -9,8 +9,8 @@
   background-color: rgba(0, 123, 255, 0.1);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
-  transform: .3s all ease;
-  border: 2px solid transparent;
+  transition: .3s all ease;
+  border: 2px solid #ccc;
 }
 
 .skill_container > div:hover {
@@ -38,6 +38,7 @@
 
 .skill_content > article > div > h4 {
   font-size: 18px;
+  font-weight: 500;
 }
 
 .skill-icon {
@@ -60,6 +61,13 @@
 
 .skill span {
   color: #1976d2;
+}
+
+@media only screen and (max-width: 760px) {
+  .skill_container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 400px) {
