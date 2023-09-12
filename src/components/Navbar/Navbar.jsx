@@ -16,7 +16,9 @@ const Navbar = () => {
   const handleToggleNav  = () => {
     setShowLinks(!showLinks)
   }
-
+  
+  const handleCloseMenu = () => setShowLinks(false) 
+  
   return (
     <nav className="nav-links">
 
@@ -30,22 +32,22 @@ const Navbar = () => {
 
       <ul className={showLinks ? 'show-links-nav' : 'list-nav'}>
         <li>
-          <NavLink to="/" className={({isActive}) => isActive ? 'active-link' : 'link'}>
+          <NavLink to="/" onClick={handleCloseMenu} className={({isActive}) => isActive ? 'active-link' : 'link'}>
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/About" className={({isActive}) => isActive ? 'active-link' : 'link'} >
+          <NavLink to="/About" onClick={handleCloseMenu} className={({isActive}) => isActive ? 'active-link' : 'link'} >
             About
           </NavLink>
         </li>
         <li>
-          <NavLink to="/Work" className={({isActive}) => isActive ? 'active-link' : 'link' }>
+          <NavLink to="/Work" onClick={handleCloseMenu} className={({isActive}) => isActive ? 'active-link' : 'link' }>
             Work
           </NavLink>
         </li>
         <li>
-          <NavLink to="/Contact" className={({isActive}) => isActive ? 'active-link' : 'link'}>
+          <NavLink to="/Contact" onClick={handleCloseMenu} className={({isActive}) => isActive ? 'active-link' : 'link'}>
             Contact
           </NavLink>
         </li>
