@@ -17,7 +17,7 @@ const Connect = () => {
             <a
               target="_blank" 
               rel="noopener noreferrer"  
-              href='https://facebook.com'>
+              href='https://www.facebook.com/stevo.otieno.cruzah'>
               <FontAwesomeIcon icon={faFacebook} className='icon' />
             </a>
 
