@@ -34,7 +34,7 @@ const SharePage = () => {
             <a 
               target="_blank" 
               rel="noopener noreferrer" 
-              href='https://twitter.com'
+              href='https://twitter.com/_ochieng_steven'
             >
               <FontAwesomeIcon icon={faTwitter} className='icon' />
             </a>
