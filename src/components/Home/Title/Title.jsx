@@ -7,7 +7,7 @@ import './Title.css'
 
 const Title = () => {
   return (
-    <div className='title'>
+    <div className='title' data-aos='fade-down' data-aos-duration='3000'>
         <div className='logo'>
           <FontAwesomeIcon icon={faComputer}  className='title-logo'/>
         </div>

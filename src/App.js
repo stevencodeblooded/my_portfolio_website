@@ -10,6 +10,10 @@ import NotFound from './components/NotFound/NotFound';
 import Layout from './components/Layout/Layout';
 import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner';
 
+// Animation
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 const App = () => {
 
   const [isLoading, setIsLoading] = useState(true);
@@ -17,7 +21,12 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false)
-    }, 5000);
+    }, 2000);
+  }, [])
+
+  //the animation function
+  useEffect(() => {
+    Aos.init()
   }, [])
   
   return (

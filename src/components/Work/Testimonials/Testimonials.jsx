@@ -6,7 +6,7 @@ import './Testimonials.css'
 
 const Testimonials = () => {
   return (
-    <div className="testimonials">
+    <div className="testimonials" data-aos='fade-up' data-aos-duration='2000'>
       <h2>Testimonials</h2>
       <p>
         Recommendation Letter from Kenyaweb.com Limited (Available in PDF

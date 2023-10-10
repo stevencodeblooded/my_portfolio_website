@@ -4,7 +4,7 @@ import './Education.css'
 
 const Education = () => {
   return (
-    <div className="education">
+    <div className="education" data-aos='fade-up' data-aos-duration='2000'>
       <h2>Education</h2>
       <ul>
         <li>

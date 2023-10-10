@@ -62,8 +62,8 @@ body {
 /*----------------------Work Page -------------------------*/
 
 .work {
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 100%;
+  padding-inline: 40px;
 }
 
 .work h1 {

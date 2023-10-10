@@ -1,21 +1,32 @@
-.project {
-  margin-bottom: 40px;
-}
-
-.project h2 {
+.projects-heading {
   font-size: 2.4rem;
   color: #1976d2;
-  margin-bottom: 0px;
+}
+
+.all-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-container {
+  width: 400px;
+}
+
+.project-container > h3 {
+  color: #1976d2;
+  font-weight: 500;
+}
+
+.rentmyspace, .organizeHR, .shareplaces {
+  width: 400px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
 }
 
 .project p {
-  font-size: 20px;
-}
-
-.project p > span {
-  color: #1976d2;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 18px;
 }
 
 .work-links {

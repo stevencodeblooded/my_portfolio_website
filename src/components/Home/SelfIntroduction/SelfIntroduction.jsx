@@ -7,7 +7,7 @@ import './SelfIntroduction.css'
 
 const SelfIntroduction = () => {
   return (
-    <div className='self-intro'>
+    <div className='self-intro' data-aos='zoom-in' data-aos-duration='1000'>
         <h2>Welcome...<span><FontAwesomeIcon icon={faHandshake} className='welcome' /></span></h2>
         <h3>I'm</h3>
         <h1>Steven Ochieng</h1>

@@ -6,7 +6,7 @@ import './TextContent.css'
 
 const TextContent = () => {
   return (
-    <div className="text-content">
+    <div className="text-content" data-aos='fade-up' data-aos-duration='3000'>
       <p>
         I'm a lifelong learner, always seeking opportunities to expand my
         knowledge and skills in the fast-paced tech industry. I aspire to contribute to cutting-edge projects that drive innovation

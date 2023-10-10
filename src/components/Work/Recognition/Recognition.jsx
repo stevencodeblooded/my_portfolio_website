@@ -6,7 +6,7 @@ import './Recogition.css'
 
 const Recognition = () => {
   return (
-    <div className="awards">
+    <div className="awards" data-aos='fade-up' data-aos-duration='2000'>
       <h2>Awards and Recognition</h2>
       <p>Certification in Computer Proficiency from Augur Computer College.</p>
       <ul className="awards-list">

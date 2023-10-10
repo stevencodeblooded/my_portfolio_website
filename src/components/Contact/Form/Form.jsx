@@ -35,7 +35,7 @@ const Form = () => {
 
    return (
 
-    <form onSubmit={handleSubmit} className="contact-form">
+    <form onSubmit={handleSubmit} className="contact-form" data-aos='zoom-in' data-aos-duration='3000'>
 
       <label htmlFor="name">Name:</label>
       <input

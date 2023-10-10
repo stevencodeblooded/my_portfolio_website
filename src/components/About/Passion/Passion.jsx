@@ -4,7 +4,7 @@ import './Passion.css'
 
 const Passion = () => {
   return (
-    <div className="passion">
+    <div className="passion" data-aos='fade-up' data-aos-duration='2000'>
       <h2 className="passion-heading">Passion for Technology</h2>
       <p>
         Since my early days, I've been captivated by the boundless possibilities

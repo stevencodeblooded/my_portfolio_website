@@ -11,7 +11,7 @@ const Skill = () => {
       <h2>Skills and Knowledge</h2>
 
       <div className="skill_container">
-        <div className="frontend_skills">
+        <div className="frontend_skills" data-aos='fade-right' data-aos-duration='2000'>
           <h3>Frontend Development</h3>
           <div className="skill_content">
             <article>
@@ -54,7 +54,7 @@ const Skill = () => {
           </div>
         </div>
 
-        <div className="backend_skills">
+        <div className="backend_skills" data-aos='fade-left' data-aos-duration='2000'>
           <h3>Backend Development</h3>
           <div className="skill_content">
             <article>

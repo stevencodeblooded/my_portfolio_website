@@ -4,7 +4,7 @@ import './Experience.css'
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <div className="experience" data-aos='fade-up' data-aos-duration='2000'>
       <h2>Technical Support Experience</h2>
       <ul>
         <li>Provided technical support to clients through telephone and email communication,ensuring timely resolution of software and hardware infrastructure issues.</li>
