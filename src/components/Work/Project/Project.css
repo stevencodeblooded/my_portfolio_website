@@ -15,8 +15,17 @@
 }
 
 .project-container > h3 {
-  color: #1976d2;
   font-weight: 500;
+}
+
+.project-container > h3 > a {
+  color: #1976d2;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+}
+
+.project-container > h3 > a:hover {
+  text-decoration: underline;
 }
 
 .rentmyspace, .organizeHR, .shareplaces {

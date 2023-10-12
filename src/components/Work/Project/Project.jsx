@@ -2,6 +2,7 @@ import React from "react";
 
 import './Project.css'
 
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3, faJs, faPhp, faReact, faNode } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
@@ -12,13 +13,15 @@ import shareplaces from '../../../assets/SharePlaces.png'
 const Project = () => {
   return (
     <>
-      <h2 className="projects-heading">Projects</h2>
+      <h2 className="projects-heading" data-aos='fade-right' data-aos-duration='2000'>Projects</h2>
       <div className="project" data-aos='fade-up' data-aos-duration='2000'>
       <div className="all-projects">
         {/* First Project */}
         <div className="project-container">
           <img src={rentmyspace} alt="Rent My Space" className="rentmyspace"/>
-          <h3>Rent My Space</h3>
+          <h3>
+            <Link to='https://rentmyspacewebsite.000webhostapp.com/' target="_blank">Rent My Space</Link>
+          </h3>
           <p>
            A sophisticated web application that
             empowers hosts to seamlessly list their apartments for travelers or
@@ -57,7 +60,7 @@ const Project = () => {
 
             <a
               href='https://rentmyspacewebsite.000webhostapp.com/'
-              target="blank"
+              target="_blank"
               rel="noopener noreferrer"
               >
               View Live 
@@ -70,7 +73,9 @@ const Project = () => {
         {/* Second Project */}
         <div className="project-container">
           <img src={organizeHR} alt="organizeHR" className="organizeHR" />
-          <h3>OrganizeHR</h3>
+          <h3>
+            <Link to='https://organizehr.netlify.app/' target="_blank">OrganizeHR</Link>
+          </h3>
           <p>Developing a comprehensive HR management application, 'OrganizeHR,' optimizing HR processes and user experience</p>
 
           <p>Technologies used: </p>
@@ -101,7 +106,7 @@ const Project = () => {
 
             <a
               href='https://organizehr.netlify.app/'
-              target="blank"
+              target="_blank"
               rel="noopener noreferrer"
               >
               View Live 
@@ -113,7 +118,9 @@ const Project = () => {
         {/* Third Project */}
         <div className="project-container">
           <img src={shareplaces} alt="shareplaces" className="shareplaces"/>
-          <h3>Share Places Online</h3>
+          <h3>
+            <Link to='https://shareplacesonline.netlify.app/' target="_blank">Share Places Online</Link>
+          </h3>
           <p>
           Discover, share, and explore places with this platform, where users can upload photos, provide titles, and share Google directions to their favorite destinations.
           </p>
@@ -146,7 +153,7 @@ const Project = () => {
 
             <a
               href='https://shareplacesonline.netlify.app/'
-              target="blank"
+              target="_blank"
               rel="noopener noreferrer"
               >
               View Live 
