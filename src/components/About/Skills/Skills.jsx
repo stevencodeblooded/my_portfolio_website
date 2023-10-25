@@ -51,6 +51,13 @@ const Skill = () => {
                 <small className="light-text">Intermediate</small>
               </div>
             </article>
+            <article>
+              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
+              <div>
+                <h4>Rest API</h4>
+                <small className="light-text">Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -75,21 +82,28 @@ const Skill = () => {
               <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
               <div>
                 <h4>Node JS</h4>
-                <small className="light-text">Beginner</small>
+                <small className="light-text">Intermediate</small>
               </div>
             </article>
             <article>
               <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
               <div>
                 <h4>Express JS</h4>
-                <small className="light-text">Beginner</small>
+                <small className="light-text">Intermediate</small>
               </div>
             </article>
             <article>
               <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
               <div>
                 <h4>Mongo DB</h4>
-                <small className="light-text">Beginner</small>
+                <small className="light-text">Intermediate</small>
+              </div>
+            </article>
+            <article>
+              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
+              <div>
+                <h4>Firebase </h4>
+                <small className="light-text">Intermediate</small>
               </div>
             </article>
           </div>
