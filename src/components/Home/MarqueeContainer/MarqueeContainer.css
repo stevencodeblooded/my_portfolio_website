@@ -1,0 +1,21 @@
+.icons-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 50px;
+}
+
+.individual-icons {
+    font-size: 3rem;
+    color: #1976d2;
+}
+
+.title-lng {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1976d2;
+}
+
+.logo-img {
+    width: 150px;
+}
