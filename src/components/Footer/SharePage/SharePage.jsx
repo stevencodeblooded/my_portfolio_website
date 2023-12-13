@@ -42,7 +42,7 @@ const SharePage = () => {
             <a 
               target="_blank" 
               rel="noopener noreferrer" 
-              href='https://www.linkedin.com/in/steven-ochieng-aa11b721a/'
+              href='https://www.linkedin.com/in/stevenochieng/'
             >
               <FontAwesomeIcon icon={faLinkedin} className='icon' />
             </a>
@@ -50,7 +50,7 @@ const SharePage = () => {
             <a 
               target="_blank" 
               rel="noopener noreferrer" 
-              href='https://github.com/stevencodeblooded/rentmyspaceproject'
+              href='https://github.com/stevencodeblooded/'
             >
               <FontAwesomeIcon icon={faGithub} className='icon' />
             </a>
