@@ -6,6 +6,7 @@ import Internship from "../components/Work/Internship/Internship";
 import Recognition from "../components/Work/Recognition/Recognition";
 import Testimonials from "../components/Work/Testimonials/Testimonials";
 import Voluntary from "../components/Work/Voluntary/Voluntary";
+// import ProjectsCarousel from "../components/Work/ProjectsCarousel/ProjectsCarousel";
 
 const Work = () => {
   return (
@@ -18,6 +19,8 @@ const Work = () => {
           <h1 data-aos='zoom-in' data-aos-duration='1000'>Professional Endeavors</h1>
           <Project />
           <hr className="line" />
+          {/* <ProjectsCarousel />
+          <hr className="line" /> */}
           <Internship />
           <hr className="line" />
           <Experience />
@@ -29,7 +32,6 @@ const Work = () => {
           <Voluntary />
         </div>
       </div>
-
     </div>
   );
 };

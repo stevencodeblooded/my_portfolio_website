@@ -10,9 +10,14 @@ import NotFound from './components/NotFound/NotFound';
 import Layout from './components/Layout/Layout';
 import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner';
 
-// Animation
+//Fade In Animations
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+
+// Carousel
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 const App = () => {
 
@@ -24,7 +29,6 @@ const App = () => {
     }, 2000);
   }, [])
 
-  //the animation function
   useEffect(() => {
     Aos.init()
   }, [])

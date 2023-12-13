@@ -5,6 +5,13 @@
   margin-bottom: 10px;
 }
 
+.contact-subheading {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #1976d2;
+  padding-inline: 2px;
+}
+
 @media only screen and (max-width: 760px) {
   .headings h1 {
     font-size: 2.2rem;

@@ -54,7 +54,21 @@ const Skill = () => {
             <article>
               <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
               <div>
-                <h4>Rest API</h4>
+                <h4>Tailwind CSS</h4>
+                <small className="light-text">Experienced</small>
+              </div>
+            </article>
+            <article>
+              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
+              <div>
+                <h4>Next JS</h4>
+                <small className="light-text">Experienced</small>
+              </div>
+            </article>
+            <article>
+              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
+              <div>
+                <h4>TypeScript</h4>
                 <small className="light-text">Intermediate</small>
               </div>
             </article>
@@ -67,8 +81,29 @@ const Skill = () => {
             <article>
               <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
               <div>
-                <h4>PHP</h4>
-                <small className="light-text">Intermediate</small>
+                <h4>Node JS</h4>
+                <small className="light-text">Experienced</small>
+              </div>
+            </article>
+            <article>
+              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
+              <div>
+                <h4>Express JS</h4>
+                <small className="light-text">Experienced</small>
+              </div>
+            </article>
+            <article>
+              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
+              <div>
+                <h4>Mongo DB</h4>
+                <small className="light-text">Experienced</small>
+              </div>
+            </article>
+            <article>
+              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
+              <div>
+                <h4>Mongoose</h4>
+                <small className="light-text">Experienced</small>
               </div>
             </article>
             <article>
@@ -81,28 +116,7 @@ const Skill = () => {
             <article>
               <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
               <div>
-                <h4>Node JS</h4>
-                <small className="light-text">Intermediate</small>
-              </div>
-            </article>
-            <article>
-              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
-              <div>
-                <h4>Express JS</h4>
-                <small className="light-text">Intermediate</small>
-              </div>
-            </article>
-            <article>
-              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
-              <div>
-                <h4>Mongo DB</h4>
-                <small className="light-text">Intermediate</small>
-              </div>
-            </article>
-            <article>
-              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
-              <div>
-                <h4>Firebase </h4>
+                <h4>PHP</h4>
                 <small className="light-text">Intermediate</small>
               </div>
             </article>

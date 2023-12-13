@@ -11,8 +11,8 @@ const Title = () => {
         <div className='logo'>
           <FontAwesomeIcon icon={faComputer}  className='title-logo'/>
         </div>
-        <p>
-          Actively looking for a <span className='title-span'>Frontend developer</span> or <span className='title-span'>Technical Support</span> role.
+        <p className='title-text'>
+          Actively looking for a <span className='title-span'>Frontend web developer</span> or <span className='title-span'>Technical Support</span> role.
         </p>
     </div>
   )

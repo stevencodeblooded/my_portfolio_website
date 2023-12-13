@@ -8,8 +8,7 @@ const Education = () => {
       <h2>Education</h2>
       <ul>
         <li>
-          BSc. Computer Science at Pwani University, Kilifi (Expected
-          Graduation: October 2023)
+          BSc. Computer Science at Pwani University, Kilifi (October 2019 - November 2023)
         </li>
         <li>
           Certification in Computer Proficiency from Augur Computer College, Voi
@@ -17,11 +16,11 @@ const Education = () => {
         </li>
         <li>
           Secondary Education: St. Marks Secondary School, Obambo, Kisumu (20th
-          Mar 2015 - 18th Nov 2018, mean grade: B plain)
+          Mar 2015 - 18th Nov 2018)
         </li>
         <li>
           Primary Education: Buoye Primary School, Kisumu (9th Apr 2012 - 6th
-          Nov 2014, total score: 322/500)
+          Nov 2014)
         </li>
       </ul>
     </div>

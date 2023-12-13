@@ -7,10 +7,13 @@ import { Outlet } from 'react-router'
 
 const Layout = () => {
   return (
-    <div>
+    <div className='layout-container'>
         <Navbar />
         <Outlet />
+        <div className='footer-layout'>
+
         <Footer />
+        </div>
     </div>
   )
 }
