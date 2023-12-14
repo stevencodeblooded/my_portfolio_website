@@ -18,15 +18,15 @@ const Project = () => {
     <div className="container-source-project">
       <h2 className="projects-heading" data-aos='fade-right' data-aos-duration='2000'>Projects</h2>
       <div className="project" data-aos='fade-up' data-aos-duration='2000'>
-      <div className="all-projects">
-        
+      
+      <div className="all-projects"> 
         {/* First Project */}
         <div className="project-container">
           <img src={pensiumAtrium} alt="Rent My Space" className="rentmyspace"/>
           <h3>
             <Link to='https://pension-atrium.vercel.app/' target="_blank">Pensium Atrium</Link>
           </h3>
-          <p>
+          <p className="project-text-work">
             Developed a sleek and user-friendly frontend for Pension Atrium, 
             a booking accommodations project, utilizing TypeScript and Tailwind CSS 
             to enhance the user experience in the prime and affordable location near the 
@@ -72,7 +72,7 @@ const Project = () => {
           <h3>
             <Link to='https://sunfox-solar.vercel.app/' target="_blank">Sunfox Solar</Link>
           </h3>
-          <p>
+          <p className="project-text-work">
             Crafted an engaging landing page for SunFox Solar using TypeScript and Tailwind CSS, showcasing a seamless blend of design and functionality to highlight the company's solar solutions.
           </p>
           
@@ -115,7 +115,7 @@ const Project = () => {
           <h3>
             <Link to='https://northman-chi.vercel.app/' target="_blank">Northman Law Firm</Link>
           </h3>
-          <p>
+          <p className="project-text-work">
             Designed and implemented the Northman Law Firm website, seamlessly combining professionalism and aesthetic appeal to effectively showcase the firm's image and services
           </p>
           
@@ -158,7 +158,7 @@ const Project = () => {
           <h3>
             <Link to='https://rentmyspacewebsite.000webhostapp.com/' target="_blank">Rent My Space</Link>
           </h3>
-          <p>
+          <p className="project-text-work">
             A sophisticated web application that
             empowers hosts to seamlessly list their apartments for travelers or
             guests to book. This feature-rich platform also incorporates Stripe
@@ -212,7 +212,7 @@ const Project = () => {
           <h3>
             <Link to='https://organizehr.netlify.app/' target="_blank">OrganizeHR</Link>
           </h3>
-          <p>
+          <p className="project-text-work"> 
             Developing a comprehensive HR management application, 'OrganizeHR,' 
             optimizing HR processes and user experience
           </p>
@@ -260,7 +260,7 @@ const Project = () => {
           <h3>
             <Link to='https://shareplacesonline.netlify.app/' target="_blank">Share Places Online</Link>
           </h3>
-          <p>
+          <p className="project-text-work">
             Discover, share, and explore places with this platform, where users can 
             upload photos, provide titles, and share Google directions to 
             their favorite destinations.

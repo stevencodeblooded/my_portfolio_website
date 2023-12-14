@@ -19,8 +19,10 @@ const Work = () => {
           <h1 data-aos='zoom-in' data-aos-duration='1000'>Professional Endeavors</h1>
           <Project />
           <hr className="line" />
+
           {/* <ProjectsCarousel />
           <hr className="line" /> */}
+          
           <Internship />
           <hr className="line" />
           <Experience />
