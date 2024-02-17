@@ -1,11 +1,17 @@
+.connect-container {
+  background-color: #bbdefb;
+  width: 100%;
+}
+
 .connect {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   padding-inline: 30px;
   padding-bottom: 30px;
+  max-width: 1200px;
+  margin-inline: auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #bbdefb;
 }
 
 .connect > section > h2 {

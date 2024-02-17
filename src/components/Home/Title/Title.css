@@ -7,6 +7,7 @@
   margin-inline: auto;
   max-width: 600px;
   border-radius: 30px;
+  padding-inline: 5px;
 }
 
 .logo {
@@ -20,18 +21,19 @@
 
 .title-text {
   padding: 3px 6px;
+  text-transform: capitalize;
 }
 
 .title-span {
-  /* text-decoration: underline; */
   color: #1976d2;
+  text-transform: uppercase;
   cursor: pointer;
+  font-weight: 600;
   transition: 0.3s all ease-in-out;
 }
 
 .title-span:hover {
   color: #64b5f6;
-  font-weight: 600;
   text-decoration: underline;
 }
 
@@ -41,12 +43,17 @@
 
 @media only screen and (max-width: 700px) {
   .title  {
-    display: none;
+    margin-inline: 10px;
   }
+
+  .title-text {
+    text-align: center;
+  }
+  
 }
 
 @media only screen and (max-width: 400px) {
-  .title {
+  .logo {
     display: none;
   }
 }

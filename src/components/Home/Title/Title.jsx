@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComputer } from '@fortawesome/free-solid-svg-icons'
 
 import './Title.css'
+import { Link } from 'react-router-dom'
 
 const Title = () => {
   return (
@@ -12,7 +13,7 @@ const Title = () => {
           <FontAwesomeIcon icon={faComputer}  className='title-logo'/>
         </div>
         <p className='title-text'>
-          Actively looking for a <span className='title-span'>Frontend web developer</span> or <span className='title-span'>Technical Support</span> role.
+          If <span className='title-span'>bugs</span> persist, it's time to consult <Link to={'/Contact'} style={{textDecoration: 'none'}}><span className='title-span'>codeblooded</span></Link> for swift solutions.
         </p>
     </div>
   )

@@ -3,8 +3,11 @@
 .goal {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-inline: auto;
   margin-bottom: 0;
+  padding-inline: 20px;
 }
 
 .goal > h1 {
@@ -56,7 +59,7 @@
   .goal > h1 {
     font-size: 2rem;
     text-align: left;
-    padding: 10px;
+    margin: 10px;
     margin-bottom: 0;
   }
 
