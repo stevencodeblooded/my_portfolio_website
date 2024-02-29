@@ -1,184 +1,85 @@
-.container-source-project {
-  max-width: 1260px;
+.project-container {
+  max-width: 1200px;
   margin-inline: auto;
+  padding-inline: 20px;
 }
 
 .projects-heading {
   font-size: 2.4rem;
-  color: #1976d2;
+  color: #1976D2;
+  margin-bottom: 0px;
 }
 
 .all-projects {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 14px;
 }
 
-.project-container {
-  width: 400px;
-}
-
-.project-container > h3 {
-  font-weight: 500;
-}
-
-.project-container > h3 > a {
-  color: #1976d2;
+.ind-project {
+  border: 2px solid lightblue;
+  border-radius: 12px;
   text-decoration: none;
   transition: .3s all ease-in-out;
 }
 
-.project-container > h3 > a:hover {
-  text-decoration: underline;
+.ind-project:hover {
+  box-shadow: rgba(0, 0, 255, 0.09) 0px 2px 1px, rgba(0, 0, 255, 0.09) 0px 4px 2px, rgba(0, 0, 255, 0.09) 0px 8px 4px, rgba(0, 0, 255, 0.09) 0px 16px 8px, rgba(0, 0, 255, 0.09) 0px 32px 16px;
 }
 
-.rentmyspace, .organizeHR, .shareplaces {
-  width: 400px;
-  border-top-right-radius: 7px;
-  border-top-left-radius: 7px;
+.project-img {
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
 }
 
-.project p {
-  font-size: 18px;
+.project-description {
+  padding-inline: 10px;
+  padding-bottom: 15px;
+  color: black;
+}
+
+.project-description>h3>a {
+  color: #1976D2;
+  text-decoration: none;
+}
+
+
+.project-description>h3>a:hover {
+  border-bottom: 2px solid #1976D2;
+  transition: .2s all ease-in-out;
+}
+
+.sm-text {
+  font-size: 14px;
+  cursor: default;
 }
 
 .work-links {
-  margin-top: 30px;
-}
-
-.work-links a {
-  border: none;
-  background-color: #bbdefb;
-  border-radius: 5px;
-  padding: 5px;
-  text-decoration: none;
-  color: #1976d2;
-  transition: 0.3s all ease-in-out;
-  font-weight: 600;
-  font-size: 18px;
-}
-
-.work-links a:hover {
-  color: #64b5f6;
-  border: 1px solid #64b5f6;
-}
-
-.github-link {
-  margin-right: 30px;
-}
-
-.work li::marker {
-  color: #1976d2;
-  font-size: 24px;
-}
-
-.technologies {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  justify-content: space-between;
+  gap: 7px;
 }
 
-.technologies span {
-  display: flex;
-  align-items: center;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 20px;
-}
-
-.technologies span .icon {
-  margin-right: 5px;
-  color: #1976d2;
-  font-size: 25px;
-}
-
-@media only screen and (max-width: 760px) {
-
-  .project {
-    margin-inline: 15px;
-  }
-
-  .project h2 {
-    font-size: 2rem;
-  }
-
-  .projects-heading {
-    padding-left: 20px;
-  }
-
-  .project-1 > p > span {
-    font-size: 22px;
-  }
-
-}
-
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 920px) {
   .all-projects {
-    padding-inline: 5px;
-  }
-  
-  .project-container {
-    width: 100%;
-  }
-
-  .projects-heading {
-    font-size: 1.6rem;
-  }
-
-  .rentmyspace, .organizeHR, .shareplaces {
-    width: 100%;
-  }
-
-  .project-text-work {
-    font-size: 14px;
-  }
-
+      grid-template-columns: 1fr 1fr;
+    }
 }
 
+@media only screen and (max-width: 630px) {
+  .all-projects {
+      grid-template-columns: 1fr;
+    }
+}
 
-/* 
 @media only screen and (max-width: 400px) {
 
-  .project {
-    padding-inline: 0px;
-    margin-inline: 0;
-  }
-
-  .project-container {
-    width: 360px;
-    border: 2px solid red;
-  }
-
-  .rentmyspace, .organizeHR, .shareplaces {
-    width: 100%;
-  }
-
-  .project h2 {
+  .projects-heading {
     font-size: 1.3rem;
   }
-
-  .project p {
-    font-size: 14px;
-  } 
-  
-  .technologies {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
-
-  .technologies span {
-    font-size: 14px;
-    font-weight: 600;
-  }
-
-  .technologies span .icon {
-    margin-right: 5px;
-  }
-
-} */
+}
