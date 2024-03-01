@@ -31,10 +31,8 @@ const Skill = () => {
             <article>
               <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
               <div>
-                <div>
                   <h4>JavaScript</h4>
                   <small className="light-text">Experienced</small>
-                </div>
               </div>
             </article>
             <article>

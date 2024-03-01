@@ -39,21 +39,12 @@
 }
 
 @media only screen and (max-width: 760px) {
-  .experience {
-    padding-left: 15px;
-  }
-
   .experience > h2 {
     font-size: 2rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
-
-  .experience {
-    width: 90%;
-    padding-left: 20px;
-  }
 
   .experience h2 {
     font-size: 1.3rem;

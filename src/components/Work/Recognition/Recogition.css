@@ -35,34 +35,24 @@
 }
 
 @media only screen and (max-width: 760px) {
-  .awards {
-    padding-left: 15px;
-  }
-
   .awards > h2 {
     font-size: 2rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  
-  .awards {
-    width: 90%;
-    padding-left: 20px;
+  .awards h2 {
+    font-size: 1.3rem;
   }
 
-.awards h2 {
-  font-size: 1.3rem;
-}
-
-.awards p, li {
-  font-size: 14px;
-}
+  .awards p, li {
+    font-size: 14px;
+  }
 
 
-.work li::marker {
-  font-size: 18px;
-}
+  .work li::marker {
+    font-size: 18px;
+  }
 
 }
 

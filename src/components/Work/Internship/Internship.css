@@ -18,10 +18,6 @@
 }
 
 @media only screen and (max-width: 760px) {
-  .internship {
-    padding-left: 15px;
-  }
-
   .internship > h2 {
     font-size: 2rem;
   }
@@ -29,12 +25,6 @@
 }
 
 @media only screen and (max-width: 400px) {
-
-  .internship {
-    width: 90%;
-    padding-left: 20px;
-  }
-
 .internship h2 {
   font-size: 1.3rem;
 }

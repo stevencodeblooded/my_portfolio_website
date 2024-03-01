@@ -31,22 +31,12 @@
 
 
 @media only screen and (max-width: 760px) {
-  .testimonials {
-    padding-left: 15px;
-  }
-
   .testimonials > h2 {
     font-size: 2rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
-
-  .testimonials {
-    width: 90%;
-    padding-left: 20px;
-  }
-
   .testimonials h2 {
     font-size: 1.3rem;
     color: #1976d2;
