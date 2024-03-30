@@ -56,20 +56,14 @@ const Skill = () => {
                 <small className="light-text">Experienced</small>
               </div>
             </article>
-            <article>
-              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
-              <div>
-                <h4>Next JS</h4>
-                <small className="light-text">Experienced</small>
-              </div>
-            </article>
-            <article>
+            
+            {/* <article>
               <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
               <div>
                 <h4>TypeScript</h4>
                 <small className="light-text">Intermediate</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
 
@@ -114,10 +108,17 @@ const Skill = () => {
             <article>
               <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
               <div>
+                <h4>Next JS</h4>
+                <small className="light-text">Experienced</small>
+              </div>
+            </article>
+            {/* <article>
+              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
+              <div>
                 <h4>PHP</h4>
                 <small className="light-text">Intermediate</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
       </div>

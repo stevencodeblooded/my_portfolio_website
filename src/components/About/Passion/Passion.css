@@ -16,6 +16,7 @@
 
 .passion p {
   font-size: 20px;
+  text-align: center;
 }
 
 .passion::before {
@@ -47,7 +48,6 @@
 
   .passion p {
     font-size: 15px;
-    text-align: center;
   }
    
 }

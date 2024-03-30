@@ -84,7 +84,7 @@
 }
 
   .toggle-nav {
-    position: absolute;
+    position: fixed;
     display: block;
     font-size: 28px;
     color: #1976d2;

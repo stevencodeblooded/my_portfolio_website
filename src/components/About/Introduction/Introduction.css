@@ -6,6 +6,12 @@
 
 .about-header p {
   font-size: 20px;
+  text-align: center;
+}
+
+.my-name {
+  color: #1976d2;
+  text-align: none;
 }
 
 @media only screen and (max-width: 760px) {
