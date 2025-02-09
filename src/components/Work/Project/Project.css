@@ -1,102 +1,210 @@
+/* Container Styles */
 .project-container {
   max-width: 1200px;
-  margin-inline: auto;
-  padding-inline: 20px;
+  margin: 30px auto;
+  padding: 0 20px;
 }
 
 .projects-heading {
   font-size: 2.4rem;
   color: #1976D2;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
+/* Grid Layout */
 .all-projects {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 20px;
-  column-gap: 14px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
+/* Individual Project Card */
 .ind-project {
-  border: 2px solid lightblue;
-  border-radius: 12px;
+  border: 1px solid rgba(25, 118, 210, 0.2);
+  border-radius: 8px;
   text-decoration: none;
-  transition: .3s all ease-in-out;
+  transition: all 0.2s ease;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .ind-project:hover {
-  box-shadow: rgba(0, 0, 255, 0.09) 0px 2px 1px, rgba(0, 0, 255, 0.09) 0px 4px 2px, rgba(0, 0, 255, 0.09) 0px 8px 4px, rgba(0, 0, 255, 0.09) 0px 16px 8px, rgba(0, 0, 255, 0.09) 0px 32px 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
 }
 
+/* Project Image */
 .project-img {
   width: 100%;
+  height: 180px;
   object-fit: cover;
-  border-top-right-radius: 12px;
-  border-top-left-radius: 12px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
+/* Project Description */
 .project-description {
-  padding-inline: 10px;
-  padding-bottom: 15px;
-  color: black;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.project-description>h3>a {
+.project-description h3 {
+  margin: 0 0 10px 0;
+}
+
+.project-description h3 a {
   color: #1976D2;
   text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
-
-.project-description>h3>a:hover {
-  border-bottom: 2px solid #1976D2;
-  transition: .2s all ease-in-out;
+.project-description h3 a:hover {
+  color: #1565C0;
 }
 
 .sm-text {
-  font-size: 14px;
-  cursor: default;
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 0 12px 0;
+  line-height: 1.4;
 }
 
+/* Technologies Section */
 .technologies {
-  font-size: 16px;
-  font-weight: 500;
-  color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
 }
 
-.technologies>span>.icon {
-  font-size: 22px;
-  transition: 0.3s all ease;
+.technologies span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.technologies .icon {
+  font-size: 1.1rem;
+  color: #1976D2;
+}
+
+/* Work Links */
+.work-links {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.work-links a {
+  flex: 1;
+  padding: 8px 12px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.work-links .github-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: #1565C0;
+}
+
+.work-links a:not(.github-link):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(25, 118, 210, 0.1);
+}
+
+/* Optional: Add active state for when buttons are clicked */
+.work-links a:active {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.work-links .github-link {
+  background-color: #1976D2;
+  color: white;
+}
+
+.work-links a:not(.github-link) {
+  border: 1px solid #1976D2;
+  color: #1976D2;
+}
+
+.work-links .github-link:hover {
+  background-color: #1565C0;
+}
+
+.work-links a:not(.github-link):hover {
+  background-color: rgba(25, 118, 210, 0.1);
+}
+
+/* Dark Mode Styles */
+.dark-mode .ind-project {
+  background: #2c3e50;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .sm-text {
+  color: #bdc3c7;
+}
+
+.dark-mode .technologies span {
+  color: #bdc3c7;
+}
+
+.dark-mode .technologies .icon {
   color: #64b5f6;
 }
 
-.technologies>span>.icon:hover {
-  color: #1976d2;
-  transform: scale(1.2);
+.dark-mode .work-links a {
+  border-color: #64b5f6;
 }
 
-.work-links {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  gap: 7px;
+.dark-mode .work-links .github-link {
+  background-color: #64b5f6;
+  color: #2c3e50;
 }
 
+.dark-mode .work-links a:not(.github-link) {
+  border-color: #64b5f6;
+  color: #64b5f6;
+}
+
+/* Responsive Design */
 @media only screen and (max-width: 920px) {
   .all-projects {
-      grid-template-columns: 1fr 1fr;
-    }
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media only screen and (max-width: 630px) {
   .all-projects {
-      grid-template-columns: 1fr;
-    }
+    grid-template-columns: 1fr;
+  }
+  .projects-heading {
+    font-size: 1.8rem;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-
   .projects-heading {
     font-size: 1.3rem;
+  }
+  .work-links {
+    flex-direction: column;
   }
 }

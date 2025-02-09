@@ -2,6 +2,7 @@
 .goal-container {
   max-width: 1150px;
   margin-inline: auto;
+  margin-block: 70px;
 }
 
 .goal {
@@ -9,6 +10,7 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0;
+  gap: 20px;
   /* border: 2px solid red; */
 }
 

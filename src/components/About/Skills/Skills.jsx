@@ -57,13 +57,6 @@ const Skill = () => {
               </div>
             </article>
             
-            {/* <article>
-              <FontAwesomeIcon icon={faCheckToSlot} className="skill-icon" />
-              <div>
-                <h4>TypeScript</h4>
-                <small className="light-text">Intermediate</small>
-              </div>
-            </article> */}
           </div>
         </div>
 

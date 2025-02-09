@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './container/Home';
@@ -18,43 +17,65 @@ import 'aos/dist/aos.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const App = () => {
+// Add this import
+import './styles/theme.css';  // Create this file for global theme styles
 
+const App = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    // Check for saved theme preference
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      setIsDarkMode(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    // Apply theme to document
+    if (isDarkMode) {
+      document.documentElement.classList.add('dark-mode');
+      localStorage.setItem('theme', 'dark');
+    } else {
+      document.documentElement.classList.remove('dark-mode');
+      localStorage.setItem('theme', 'light');
+    }
+  }, [isDarkMode]);
 
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false)
-    }, 2000);
-  }, [])
+    }, 1000);
+  }, []);
 
   useEffect(() => {
     Aos.init()
-  }, [])
-  
+  }, []);
+
   return (
-    <div>
-       {
-        isLoading ? (
-          <div>
-            <LoadingSpinner />
-          </div>
-        ) : (
-          <React.Fragment>
-            <Router>
-              <Routes>
-                <Route path='/' element={<Layout/>}>
-                  <Route index element={<Home />} />
-                  <Route path="about" element={<About />} />
-                  <Route path='work' element={<Work/>} />
-                  <Route path="contact" element={<Contact />} />
-                  <Route path='*' element={<NotFound />} />
-                </Route>
-              </Routes>
-            </Router>
-          </React.Fragment>
-        )
-       }
+    <div className={isDarkMode ? 'dark-mode' : ''}>
+      {isLoading ? (
+        <div>
+          <LoadingSpinner />
+        </div>
+      ) : (
+        <React.Fragment>
+          <Router>
+            <Routes>
+              <Route path='/' element={
+                <Layout isDarkMode={isDarkMode} toggleTheme={() => setIsDarkMode(!isDarkMode)} />
+              }>
+                <Route index element={<Home />} />
+                <Route path="about" element={<About />} />
+                <Route path='work' element={<Work/>} />
+                <Route path="contact" element={<Contact />} />
+                <Route path='*' element={<NotFound />} />
+              </Route>
+            </Routes>
+          </Router>
+        </React.Fragment>
+      )}
     </div>
   );
 };

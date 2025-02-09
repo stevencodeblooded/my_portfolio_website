@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Title from '../components/Home/Title/Title';
 import TextContent from '../components/Home/TextContent/TextContent';
 import SelfIntroduction from '../components/Home/SelfIntroduction/SelfIntroduction';

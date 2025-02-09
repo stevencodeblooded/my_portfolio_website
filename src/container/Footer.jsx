@@ -1,5 +1,3 @@
-import React from 'react'
-
 import SharePage from '../components/Footer/SharePage/SharePage'
 import Connect from '../components/Footer/Connect/Connect'
 import Copyright from '../components/Footer/Copyright/Copyright'

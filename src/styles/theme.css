@@ -1,0 +1,127 @@
+/* src/styles/theme.css */
+:root {
+    --background-light: #ffffff;
+    --text-light: #333333;
+    --primary-light: #1976d2;
+    --secondary-light: #bbdefb;
+  
+    --background-dark: #2c3e50;
+    --text-dark: #ecf0f1;
+    --primary-dark: #64b5f6;
+    --secondary-dark: #34495e;
+  }
+  
+  /* Light theme (default) */
+  body {
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: all 0.3s ease;
+  }
+  
+  /* Dark theme */
+  body.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+  }
+  
+  /* Dark mode styles for common elements */
+  .dark-mode h1,
+  .dark-mode h2,
+  .dark-mode h3,
+  .dark-mode h4,
+  .dark-mode h5,
+  .dark-mode h6 {
+    color: var(--text-dark);
+  }
+  
+  .dark-mode p {
+    color: var(--text-dark);
+  }
+  
+  .dark-mode a {
+    color: var(--primary-dark);
+  }
+  
+  /* Add more specific dark mode styles as needed */
+  .dark-mode .card {
+    background-color: var(--secondary-dark);
+    border-color: var(--primary-dark);
+  }
+  
+  .dark-mode .footer {
+    background-color: var(--secondary-dark);
+    color: var(--text-dark);
+  }
+  
+  /* Add smooth transitions */
+  *,
+  *::before,
+  *::after {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+/* Container styles */
+.connect-container {
+  background-color: #bbdefb;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+/* Base link styles - will be the same in both themes */
+
+.aboutMe-link {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 0.95rem; /* Consistent font size */
+  min-width: 140px; /* Ensures minimum width */
+  text-align: center;
+}
+
+/* Light theme specific styles */
+.work-links .github-link {
+  background-color: #1976D2;
+  color: white;
+  border: 1px solid #1976D2;
+}
+
+.aboutMe-link {
+  background-color: transparent;
+  border: 1px solid #1976D2;
+  color: #1976D2;
+}
+
+/* Dark theme styles */
+.dark-mode .connect-container {
+  background-color: var(--secondary-dark, #34495e);
+}
+
+.dark-mode .aboutMe-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .aboutMe-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .work-links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .work-links a, .aboutMe-link {
+    width: 100%;
+    min-width: unset;
+  }
+}

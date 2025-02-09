@@ -17,7 +17,7 @@ const Project = () => {
         <h2 className="projects-heading" data-aos='fade-right' data-aos-duration='2000'>Projects</h2>
         <div className="all-projects">
 
-        <a href="https://nexship.vercel.app/" data-aos='fade-up' data-aos-duration='2000' target="_blank" rel="noopener noreferrer" className="ind-project">
+        <div className="ind-project" data-aos='fade-up' data-aos-duration='2000'>
             <img src={nexship} alt="organizeHR" className="project-img" />
             <div className="project-description">
               <h3>
@@ -60,9 +60,9 @@ const Project = () => {
 
               </div>
             </div>
-          </a>
+          </div>
 
-        <a href="https://smssavant.netlify.app/" data-aos='fade-up' data-aos-duration='2000' target="_blank" rel="noopener noreferrer" className="ind-project">
+          <div className="ind-project" data-aos='fade-up' data-aos-duration='2000'>
             <img src={smsSavant} alt="Rent My Space" className="project-img" />
             <div className="project-description">
               <h3>
@@ -105,9 +105,9 @@ const Project = () => {
 
               </div>
             </div>
-          </a>
+          </div>
 
-          <a href='https://pension-atrium.vercel.app/' data-aos='fade-up' data-aos-duration='1000' target="_blank" rel="noopener noreferrer" className="ind-project">
+          <div className="ind-project" data-aos='fade-up' data-aos-duration='2000'>
             <img src={pensiumAtrium} alt="Rent My Space" className="project-img" />
             <div className="project-description">
               <h3>
@@ -151,9 +151,9 @@ const Project = () => {
 
               </div>
             </div>
-          </a>
+          </div>
 
-          <a href="https://northman-chi.vercel.app/" data-aos='fade-up' data-aos-duration='3000' target="_blank" rel="noopener noreferrer"  className="ind-project">
+          <div className="ind-project" data-aos='fade-up' data-aos-duration='2000'>
             <img src={northMan} alt="Rent My Space" className="project-img" />
             <div className="project-description">
               <h3>
@@ -197,9 +197,9 @@ const Project = () => {
 
               </div>
             </div>
-          </a>
+          </div>
 
-          <a href="https://imagery-eccommerce.vercel.app/" data-aos='fade-up' data-aos-duration='3000' target="_blank" rel="noopener noreferrer" className="ind-project">
+          <div className="ind-project" data-aos='fade-up' data-aos-duration='2000'>
             <img src={imageryEccommerce} alt="shareplaces" className="project-img" />
             <div className="project-description">
               <h3>
@@ -242,9 +242,9 @@ const Project = () => {
 
               </div>
             </div>
-          </a>
+          </div>
 
-          <a href="https://rentmyspacewebsite.000webhostapp.com/" data-aos='fade-up' data-aos-duration='1000' target="_blank" rel="noopener noreferrer" className="ind-project">
+          <div className="ind-project" data-aos='fade-up' data-aos-duration='2000'>
             <img src={rentmyspace} alt="Rent My Space" className="project-img" />
             <div className="project-description">
               <h3>
@@ -294,7 +294,7 @@ const Project = () => {
 
               </div>
             </div>
-          </a>
+          </div>
 
         </div>
       </div>

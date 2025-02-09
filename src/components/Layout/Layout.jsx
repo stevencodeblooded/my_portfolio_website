@@ -5,14 +5,13 @@ import Footer from '../../container/Footer'
 import Navbar from '../Navbar/Navbar'
 import { Outlet } from 'react-router'
 
-const Layout = () => {
+const Layout = ({ isDarkMode, toggleTheme }) => {
   return (
     <div className='layout-container'>
-        <Navbar />
+        <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         <Outlet />
         <div className='footer-layout'>
-
-        <Footer />
+          <Footer />
         </div>
     </div>
   )

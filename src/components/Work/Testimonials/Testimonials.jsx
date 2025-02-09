@@ -1,7 +1,4 @@
-import React from "react";
-
 import Recommendation from '../../../assets/Recommendation Letter.pdf'
-
 import './Testimonials.css'
 
 const Testimonials = () => {

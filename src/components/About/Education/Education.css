@@ -63,3 +63,55 @@
 }
  
 }
+
+/* Global text colors for light theme */
+body {
+  color: #000000; /* Default black text */
+}
+
+h1, h2, h3, h4, h5, h6,
+p, span, a, li, label, input, textarea {
+  color: inherit; /* Inherit from body */
+  transition: color 0.3s ease;
+}
+
+.icon {
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+/* Dark theme text color overrides */
+body.dark-mode,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode p,
+.dark-mode span,
+.dark-mode a,
+.dark-mode li,
+.dark-mode label,
+.dark-mode input,
+.dark-mode textarea {
+  color: #ffffff;
+}
+
+.dark-mode .icon {
+  color: #ffffff;
+}
+
+/* Ensure links maintain proper styling */
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-light);
+}
+
+.dark-mode a:hover {
+  color: var(--primary-dark);
+}

@@ -1,7 +1,4 @@
-import React from "react";
-
 import Certificate from '../../../assets/MS_CertificateOfProficiency.pdf'
-
 import './Recogition.css'
 
 const Recognition = () => {
